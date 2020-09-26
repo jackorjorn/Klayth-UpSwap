@@ -896,12 +896,12 @@
     "8217": {
       "events": {},
       "links": {},
-      "address": "0x67E0F23Da9B6AfbdfBec1bC9E0f34A95C8C4555D",
-      "transactionHash": "0x93d4b2d2a9091eee26352dff796bf84013b234964ccb9c4fb7b508f4edd0dd07"
+      "address": "0xd997a8Ca77c6afA2210AEBBF70E86752BF92324C",
+      "transactionHash": "0x753406fd4401945be1c44c5142ba0c3c57a1ca787537ba20ef2e0b68a1e19746"
     }
   },
   "schemaVersion": "3.2.5",
-  "updatedAt": "2020-09-24T16:27:23.040Z",
+  "updatedAt": "2020-09-26T19:17:50.682Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
