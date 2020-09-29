@@ -19,12 +19,22 @@ module.exports = {
       provider: () => new HDWalletProvider(privateKey, "https://api.cypress.klaytn.net:8651"),
       network_id: '8217', //Klaytn mainnet's network id
       gas: '8500000',
-      gasPrice: null
+      gasPrice: null,
+      timeout: 100000000,
+      networkCheckTimeout: 100000000
+    },
+    ropsten: {
+      provider: function() {
+        return new HDWalletProvider(privateKey, "https://ropsten.infura.io/v3/bad9b725540d49acbf1453de01f40396")
+      },
+      network_id: 3,
+      networkCheckTimeout: 1000
     }
   },
   compilers:{
     solc :{
       version: "0.6.6",
+
       settings: {
         optimizer: {
           enabled: true,
